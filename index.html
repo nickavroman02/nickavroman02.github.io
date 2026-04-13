@@ -121,20 +121,18 @@
 
     .hero-photo-frame {
       width: 100%;
-      max-width: 280px;
-      aspect-ratio: 4 / 5;
+      max-width: min(320px, 100%);
       border-radius: 20px;
       border: 1px solid var(--border);
       overflow: hidden;
       box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+      line-height: 0;
     }
 
     .hero-photo {
       width: 100%;
-      height: 100%;
+      height: auto;
       display: block;
-      object-fit: cover;
-      object-position: center 22%;
     }
 
     nav {
@@ -217,7 +215,7 @@
             src="websiteheadshot.png"
             alt="Nicholas Vroman"
             width="1206"
-            height="2622"
+            height="1281"
             loading="eager"
             decoding="async"
           />
@@ -233,7 +231,7 @@
         <div class="grid-3">
 
           <div class="project-card">
-            <h3>Purdue University Master's Thesis</h3>
+            <h3>Purdue University Master's Thesis 2026</h3>
             <p>Workflow for optimizing indirect prompt injection in agentic AI systems.</p>
             <a href="https://vromannicholas.github.io/WEAVE/">View Thesis</a>
           </div>
@@ -250,7 +248,7 @@
               Developing a cooking-focused application to explore user-friendly interfaces,
               recipe workflows, and practical everyday software design.
             </p>
-            
+
           </div>
 
           <div class="project-card">
